@@ -1,0 +1,15 @@
+
+<form class="formulario" action="">
+  <h2>Crear Nota</h2>
+  <label for="txtTitulo">Titulo:</label>
+  <input id="txtTitulo" name="txtTitulo" type="text" [(ngModel)]="nota.titulo" >  <!-- Aqui primero hace un get con parentesis y un set con corchetes -->
+  <br>
+  <label for="txtDescripcion">Descripcion:</label>
+  <input id="txtDescripcion" name="txtDescripcion" type="text" [(ngModel)]="nota.descripcion">
+  <br>
+  <label for="txtfecha">Fecha:</label>
+  <input id="txtfecha" name="txtfecha" type="text" [(ngModel)]="nota.fecha" >
+
+  <button id="botonsaveNota" (click)="saveNota()">Guardar</button>
+</form>
+<router-outlet></router-outlet>

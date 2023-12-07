@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "/dist/repuesto",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
